@@ -1,7 +1,7 @@
-﻿using System;
+﻿
 
-namespace FirstApp
-{
+namespace FirstApp { 
+    using System;
     class Program
     {
         static void Main(string[] args)
@@ -12,6 +12,8 @@ namespace FirstApp
 
             Console.WriteLine(" Lütfen adınızı giriniz :");
             Console.WriteLine("giriş yapan kullanıcı: " + Console.ReadLine());
+            Console.WriteLine("Lütfen telefon numaranızı girin");
+            Console.WriteLine("Telefon numaranız: " + Console.ReadLine());
             Console.Read();
 
         }
